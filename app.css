@@ -25,13 +25,6 @@
 	padding-left: 700px;
 }
 
-@media (max-width: 1000px) {
-	#header .content {
-		padding-left: 10px;
-		padding-top: 90px;
-	}
-}
-
 #header .content h1 {
 	color: black;
 	font-weight: 500;
@@ -42,6 +35,21 @@
 	color: #798284;
 	letter-spacing: 0.05em;
 	padding-top: 20px;
+}
+
+@media (max-width: 1000px) {
+	#header .content {
+		padding-left: 5px;
+		padding-top: 90px;
+	}
+
+	#header .content h1 {
+		width: 200px;
+	}
+
+	#header .content p {
+		width: 300px;
+	}
 }
 
 #header .content .btn {
@@ -68,6 +76,12 @@
 	color: #798284;
 	letter-spacing: 0.05em;
 	font-weight: 100;
+}
+
+@media (max-width: 1000px) {
+	.sign p {
+		width: 300px;
+	}
 }
 
 .sign img {
@@ -128,6 +142,12 @@
 	height: 3px;
 }
 
+@media (max-width: 1000px) {
+	.meter {
+		width: 60%;
+	}
+}
+
 
 .icons .container{
 	display: flex;
@@ -142,6 +162,13 @@
 .icons .item {
 	display: flex;
 	flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+	.icons .container {
+		flex-direction: column;
+		margin: 10px auto;
+	}
 }
 
 .icons i {
@@ -163,6 +190,12 @@
 
 .grid #sub {
     display: flex;
+}
+
+@media (max-width: 1000px) {
+	.grid #sub {
+		flex-direction: column;
+	}
 }
 
 .grid img {
@@ -197,6 +230,17 @@
 	margin-top: 15px;
 }
 
+@media (max-width: 1000px) {
+	.video p {
+		width: 300px;
+	}
+
+	.video img {
+		width: 60%;
+		height: 40%;
+	}
+}
+
 .features {
 	background-color: #EFEFEF;
 	padding-top: 50px;
@@ -228,6 +272,17 @@
 	width: 200px;
 }
 
+@media (max-width: 1000px) {
+	.features .container #sub {
+		flex-direction: column;
+	}
+
+	.features p {
+		margin-left: 30%;
+	}
+}
+
+
 .testimonial {
 	background-color: turquoise;
 	color: white;
@@ -246,6 +301,12 @@
 	letter-spacing: 0.05em;
 }
 
+@media (max-width: 1000px) {
+	.testimonial p {
+		width: 300px;
+	}
+}
+
 .testimonial h6 {
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
@@ -257,6 +318,14 @@
 	width: 120px;
 	height: 120px;
 	margin: 30px 40px;
+}
+
+@media (max-width: 1000px) {
+	.brands img {
+		width: 40px;
+		height: 50px;
+		margin: 10px;
+	}
 }
 
 .brands {
@@ -285,6 +354,12 @@
 	text-align: center;
 	letter-spacing: 0.05em;
 	margin-bottom: 25px;
+}
+
+@media (max-width: 1000px) {
+	.last p {
+		width: 300px;
+	}
 }
 
 .last .form {
@@ -328,6 +403,12 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 	letter-spacing: 0.05em;
+}
+
+@media (max-width: 1000px) {
+	.footer .container {
+		flex-direction: column;
+	}
 }
 
 .footer p {
