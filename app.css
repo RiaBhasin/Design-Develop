@@ -25,6 +25,13 @@
 	padding-left: 700px;
 }
 
+@media (max-width: 1000px) {
+	#header .content {
+		padding-left: 10px;
+		padding-top: 90px;
+	}
+}
+
 #header .content h1 {
 	color: black;
 	font-weight: 500;
